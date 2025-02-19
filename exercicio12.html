@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11</title>
+</head>
+<body>
+    <script>
+        var quantidadeQuilowatt = parseInt(prompt("Digite a quantidade de quilowartt"))
+        var quilowatt = 0.97
+
+        var valorEnergia = quantidadeQuilowatt*quilowatt
+        var valorEnergiaComDesconto = valorEnergia - (valorEnergia*15)/100
+
+        console.log("o valor da energia é: " +parseFloat(valorEnergia.toFixed(2)));
+        console.log("o valor da energia com desconto é: " +parseFloat(valorEnergiaComDesconto.toFixed(2)));
+        
+    </script>
+</body>
+</html>
